@@ -11,10 +11,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#f1f1f1",
-        secondry: "#212121",
-        marquee: "#004d43",
-        about: "#cdea68"
+        background: "#fff",
+        secondry: "#000",
+        marquee: "#0D2818",
+        about: "#C1FF72"
       },
     },
     fontFamily: {

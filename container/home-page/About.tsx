@@ -1,16 +1,21 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { aboutImg } from "@/public";
 import { LinkHover } from "@/animation";
 import { footerItems } from "@/constants";
 import { Heading, RoundButton } from "@/components";
+import { bg } from "@/public";
 
 export default function About() {
 	const [hovered, setHovered] = useState(false);
 
 	return (
-		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
+		<section className="w-full  padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
+			<Image
+				src={bg}
+				alt="about-img"
+				className="ml-10"
+			/>
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					Ochi is a strategic partner for fast-grow­ing tech
@@ -85,17 +90,21 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
-						hovered && "scale-[0.96]"
-					}`}>
-					<Image
-						src={aboutImg}
-						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
-							hovered && "scale-[1.09]"
-						}`}
-					/>
+					className={`w-[50%] sm:w-full xm:w-full h-[350px] sm:h-[250px] xm:h-[250px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+						}`}>
+					<iframe
+						className="w-full h-full object-cover transition transform duration-[2s] ease-[.215,.61,.355,1] rounded-[15px]"
+						src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID"
+						title="YouTube video player"
+
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+						onMouseEnter={() => setHovered(true)}
+						onMouseLeave={() => setHovered(false)}
+					></iframe>
 				</div>
+
+
 			</div>
 		</section>
 	);

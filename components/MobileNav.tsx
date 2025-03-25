@@ -17,8 +17,8 @@ export default function MobileNav() {
 					<Image
 						src={logo}
 						alt="ochi logo"
-						width={70}
-						height={70}
+						width={120}
+						height={120}
 					/>
 				</Link>
 				<HiOutlineMenuAlt4
