@@ -22,7 +22,7 @@ export default function Footer() {
 						</h1>
 						<div className="pt-[50px]">
 							<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-								S:
+								Socials:
 							</h1>
 							{footerItems.map((item) => (
 								<LinkHover
@@ -80,7 +80,7 @@ export default function Footer() {
 								E:
 							</h1>
 							<LinkHover
-								title="hello@ochi.design"
+								title="ochi@gmail.com"
 								href="/"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
@@ -102,7 +102,7 @@ export default function Footer() {
 				<div className="w-1/2 h-full flex gap-[10px] justify-between items-end sm:w-full xm:w-full sm:flex-col xm:flex-col sm:items-start xm:items-start">
 					<div className="flex sm:flex-col xm:flex-col gap-[10px]">
 						<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© ochi design 2024.
+							© ochi 2024.
 						</h1>
 						<LinkHover
 							title="Legal Terms"

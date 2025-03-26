@@ -36,23 +36,34 @@ export const footerItems = [
       id: 1,
       title: "Instagram",
       href: "https://www.instagram.com/",
+      img: "/ins.png", // Add image path
    },
    {
       id: 2,
-      title: "Behance",
-      href: "https://www.behance.com/",
+      title: "Tiktok",
+      href: "https://www.tiktok.com/",
+      img: "/tiktok.png",
+   },
+   {
+      id: 2,
+      title: "Facebook",
+      href: "https://www.facebook.com/",
+      img: "/face.png",
    },
    {
       id: 3,
-      title: "Facebook",
-      href: "https://www.facebook.com/",
+      title: "Youtube",
+      href: "https://www.youtube.com/",
+      img: "/yout.png",
    },
    {
       id: 4,
-      title: "Linkedin",
-      href: "https://www.linkedin.com/",
+      title: "Twitter",
+      href: "https://www.twitter.com/",
+      img: "/twi.png",
    },
 ];
+
 
 export const footernavbarItems = [
    {
@@ -162,7 +173,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "ochi brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations ochi developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
@@ -219,7 +230,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from ochi was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -240,7 +251,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!",
       links: [
          {
             id: 1,
@@ -313,7 +324,7 @@ export const clientsItem = [
       title: "Services:",
       name: "David Buddy",
       src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "We were surprised by the accuracy with which ochi nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
       links: [
          {
             id: 1,
@@ -541,7 +552,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "ochi brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations ochi developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
@@ -598,7 +609,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from ochi was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -619,7 +630,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!",
       links: [
          {
             id: 1,
@@ -1209,7 +1220,7 @@ export const aboutPartberItems = [
       id: 2,
       src: officevibe,
       title: "Officevibe",
-      para: "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+      para: "ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!"
    },
    {
       id: 3,
@@ -1303,7 +1314,7 @@ export const FaqItems = [
       id: 4,
       question: "I want to become a part of the team! Do you hire?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at ochi. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
       links: [
          {
             id: 1,
@@ -1313,7 +1324,7 @@ export const FaqItems = [
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to ochi@gmail.com with “-” and we will get back to you."
          },
       ],
       button: "read"

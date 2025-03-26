@@ -9,7 +9,7 @@ export default function About() {
 					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 						<div>
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								We are ochi design:
+								We are ochi:
 							</h3>
 						</div>
 						<div className="w-[48%] sm:w-full xm:w-full flex justify-between">

@@ -18,7 +18,7 @@ export default function About() {
 			/>
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
+					ochi is a strategic partner for fast-grow­ing tech
 					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
 						raise funds,
@@ -56,18 +56,27 @@ export default function About() {
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
 								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									S:
+									Socials:
 								</h1>
-								<div className="flex flex-col">
+								<div className="flex flex-col space-y-2">
 									{footerItems.map((item) => (
-										<LinkHover
-											key={item.id}
-											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
-											title={item.title}
-											href={"/"}
-										/>
+										<div key={item.id} className="flex items-center space-x-2">
+											<Image
+												src={item.img} // Ensure the correct path
+												alt={item.title}
+												width={30} // Adjust as needed
+												height={30}
+												className="w-10 h-10"
+											/>
+											<LinkHover
+												className="w-fit sub-paragraph font-medium capitalize"
+												title={item.title}
+												href={item.href}
+											/>
+										</div>
 									))}
 								</div>
+
 							</div>
 						</div>
 					</div>
@@ -76,6 +85,11 @@ export default function About() {
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 				<div className="flex flex-col gap-[30px]">
 					<Heading title="Our approach:" />
+					<p className="font-medium font-NeueMontreal text-secondry ">
+						We believe the mix of strategy and design with a bit of
+						coffee <br />is what makes your message clear, convincing, and
+						captivating.
+					</p>
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
