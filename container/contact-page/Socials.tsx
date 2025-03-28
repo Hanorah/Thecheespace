@@ -51,17 +51,17 @@ export default function Socials() {
 						<div className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 							<div>
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									L:
+									Address:
 								</h1>
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`202-1965 W 4th Awe`}
+										title={`165 MMWAY`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Vancouver, Canada`}
+										title={`Benin City, Nigeria`}
 										href="/"
 									/>
 									<LinkHover
@@ -79,9 +79,9 @@ export default function Socials() {
 							<div className="flex w-fit h-fit gap-x-[5px] group">
 								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
 									<Link
-										href="mailto:ochi@gmail.com"
+										href="mailto:thecheespace@gmail.com"
 										className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-										ochi@gmail.com
+										thecheespace@gmail.com
 									</Link>
 								</div>
 								<div className="w-[33px] flex items-center justify-center h-[33px] border-[2px] border-[#21212155] rounded-[50px] group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
