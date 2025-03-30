@@ -45,7 +45,7 @@ export default function About() {
 						<div className="w-full flex  h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[80%] sm:w-[80%] xm:w-[80%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[20px] tracking-wide">
-									You're feeling overwhelmed with endless tasks and decisions, It’s exhausting and draining. But it doesn’t have to be this way.
+									You're feeling overwhelmed with endless tasks and decisions, It’s exhausting but it doesn’t always have to be this way.
 									We're here to elevate your business and take it to the next level <br /> More stability, revenue and global clients. Whatever your goals are, We will help you succeed with expert solutions in Web & Mobile development, Branding, Digital marketing, SEO, and IT support. <br />
 									Your business deserves more than just a logo <br />It needs a complete brand experience that turns visitors into loyal customers.
 								</p>
