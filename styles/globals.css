@@ -39,8 +39,13 @@ body {
 		@apply text-[150px] leading-[100px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[50px] xm:text-[64px] xm:leading-[45px];
 	}
 	.sub-heading {
-		@apply text-[55px] leading-[55px] lg:text-[52px] lg:leading-[52px] md:text-[52px] md:leading-[52px] sm:text-[40px] sm:leading-[40px] xm:text-[31px] xm:leading-[31px];
-	}
+		@apply text-[55px] leading-[55px] 
+			   lg:text-[40px] lg:leading-[40px] 
+			   md:text-[35px] md:leading-[35px] 
+			   sm:text-[22px] sm:leading-[27px] 
+			   xm:text-[18px] xm:leading-[18px];
+	  }
+	  
 	.paragraph {
 		@apply text-[18px] leading-[26px] lg:text-[16px] lg:leading-[24px] md:text-[16px] md:leading-[24px] sm:text-[16px] sm:leading-[24px] xm:text-[16px] xm:leading-[24px];
 	}

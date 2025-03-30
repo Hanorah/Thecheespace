@@ -4,18 +4,14 @@ import { useState } from "react";
 import { LinkHover } from "@/animation";
 import { footerItems } from "@/constants";
 import { Heading, RoundButton } from "@/components";
-import { bg } from "@/public";
+
 
 export default function About() {
 	const [hovered, setHovered] = useState(false);
 
 	return (
-		<section className="w-full  padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
-			<Image
-				src={bg}
-				alt="about-img"
-				className="ml-10"
-			/>
+		<section className="w-full bg-about  padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
+
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					Cheespace is a strategic partner for fast-grow­ing brands
@@ -36,22 +32,22 @@ export default function About() {
 			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<h3 className=" sub-heading text-secondry font-NeueMontreal   "  >
+						<h3 className=" sub-heading text-secondry font-NeueMontreal mt-3  "  >
 							We get it! growing a business is tough.
 						</h3>
-						
+
 					</div>
-					<div className="w-[50%] sm:w-full xm:w-full">
-						<div className="w-full flex  h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
-							<div className="w-[80%] sm:w-[80%] xm:w-[80%]">
+					<div className="w-[100%] sm:w-full xm:w-full">
+						<div className="w-full flex  h-full items-start sm:items-start sm:flex-col xm:items-start xm:flex-col">
+							<div className="w-[50%] sm:w-[80%] xm:w-[80%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[20px] tracking-wide">
 									You're feeling overwhelmed with endless tasks and decisions, It’s exhausting but it doesn’t always have to be this way.
 									We're here to elevate your business and take it to the next level <br /> More stability, revenue and global clients. Whatever your goals are, We will help you succeed with expert solutions in Web & Mobile development, Branding, Digital marketing, SEO, and IT support. <br />
 									Your business deserves more than just a logo <br />It needs a complete brand experience that turns visitors into loyal customers.
 								</p>
 							</div>
-							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
-								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
+							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full ml-10 mt-5">
+								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px] ">
 									Socials:
 								</h1>
 								<div className="flex flex-col space-y-2">
@@ -82,7 +78,7 @@ export default function About() {
 				<div className="flex flex-col gap-[30px]">
 					<Heading title="Our approach:" />
 					<p className="font-medium font-NeueMontreal text-secondry ">
-						At Cheespace we believe your brand is more than just your business it is your identity<br /> So we craft strategies that amplifies your uniqueness and lets you stand out.
+						At Cheespace we believe your brand is more than just your business it is your identity <br />So we craft strategies that amplifies your uniqueness and lets you stand out. It's all about you.
 					</p>
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
@@ -98,7 +94,7 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[60%] sm:w-full xm:w-full h-[350px] sm:h-[250px] xm:h-[250px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+					className={`w-[50%] sm:w-full xm:w-full h-[350px] sm:h-[250px] xm:h-[250px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
 						}`}>
 					<iframe
 						className="w-full h-full object-cover transition transform duration-[2s] ease-[.215,.61,.355,1] rounded-[15px]"
