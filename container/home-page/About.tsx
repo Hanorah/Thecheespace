@@ -44,11 +44,8 @@ export default function About() {
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex  h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[80%] sm:w-[80%] xm:w-[80%]">
-<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-							YOU’RE FEELING OVERWHELMED WITH ENDLESS DECISIONS AND TASKS. SHOULD YOU REVAMP YOUR WEBSITE, BOOST YOUR SOCIAL MEDIA PRESENCE, OR INVEST IN SEO? <br />IT’S ENOUGH TO MAKE ANYONE’S HEAD SPIN!
-						</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[20px] tracking-wide">
-									It’s exhausting and draining. But it doesn’t have to be this way.
+									You're feeling overwhelmed with endless tasks and decisions, It’s exhausting and draining. But it doesn’t have to be this way.
 									We're here to elevate your business and take it to the next level <br /> More stability, revenue and global clients. Whatever your goals are, We will help you succeed with expert solutions in Web & Mobile development, Branding, Digital marketing, SEO, and IT support. <br />
 									Your business deserves more than just a logo <br />It needs a complete brand experience that turns visitors into loyal customers.
 								</p>
