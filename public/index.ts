@@ -13,6 +13,8 @@ export { default as project6 } from './project6.webp';
 export { default as project7 } from './project7.webp';
 export { default as project8 } from './project8.webp';
 export { default as project9 } from './project9.webp';
+export { default as project10 } from './project10.webp';
+export { default as project11 } from './project11.webp';
 export { default as client01 } from './client01.png';
 export { default as client02 } from './client02.png';
 export { default as client03 } from './client03.png';

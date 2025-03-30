@@ -1,4 +1,4 @@
-import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, nestle, officevibe, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3 } from "@/public";
+import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, nestle, officevibe, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3 } from "@/public";
 
 // Navbar
 export const navbarItems = [
@@ -653,6 +653,9 @@ export const serviceClientsItem = [
    },
 ];
 
+
+
+
 export const serviceCapaybilitiesItem = [
    {
       id: 1,
@@ -831,206 +834,217 @@ export const achiveItems = [
 
 
 // presentation page
-
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Shadeum",
       src: project1,
-      href: "/case/",
+      href: "https://shardeum.org/",
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Blockchain Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
-            href: "services",
+            title: "Decentralized App Solutions",
+            href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "slides design",
-            href: "services",
+            title: "Smart Contract Audits",
+            href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "trawa",
-      src: project3,
-      href: "/case/",
+      title: "Enkonix",
+      src: project2,
+      href: "https://enkonix.com/",
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Full Stack Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
-            href: "services",
+            title: "Product Design & UI/UX",
+            href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
-            href: "services",
+            title: "Business Automation Solutions",
+            href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "premium blend",
-      src: project4,
-      href: "/case/",
+      title: "Block-Chain",
+      src: project3,
+      href: "https://block-chain-sable.vercel.app/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Crypto Transactions",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "DeFi Solutions",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "planetly",
-      src: project5,
-      href: "/case/",
+      title: "Light SaaS",
+      src: project4,
+      href: "https://light-saas-seven.vercel.app/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "SaaS Product Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "policy deck & playbook",
-            href: "/services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
+            title: "Cloud Solutions",
             href: "/services",
          },
       ]
    },
    {
       id: 5,
-      title: "black box",
-      src: project8,
-      href: "/case/",
+      title: "Renewal",
+      src: project5,
+      href: "https://renewal.church/",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Church Digital Strategy",
             href: "/services",
          },
          {
             id: 2,
-            title: "redesign",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "review",
+            title: "Community Engagement",
             href: "/services",
          },
       ]
    },
    {
       id: 6,
-      title: "vise",
-      src: project2,
-      href: "/case/",
+      title: "Lazarev",
+      src: project6,
+      href: "https://www.lazarev.agency/",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Brand Identity & UI/UX",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
-            href: "services",
+            title: "Web & Mobile Design",
+            href: "/services",
          },
       ]
    },
    {
       id: 7,
-      title: "soft start",
-      src: project9,
-      href: "/case/",
+      title: "Minuttia",
+      src: project7,
+      href: "https://minuttia.com/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Content Marketing Strategy",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales desc",
+            title: "SEO & Growth Marketing",
             href: "/services",
          },
       ]
    },
    {
       id: 8,
-      title: "officevibe",
-      src: project7,
-      href: "/case/",
+      title: "Rejouice",
+      src: project8,
+      href: "https://www.rejouice.com/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Creative Branding",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Marketing Strategy",
             href: "/services",
          },
       ]
    },
    {
       id: 9,
-      title: "workiz easy",
-      src: project6,
-      href: "/case/",
+      title: "Preston Smiles",
+      src: project9,
+      href: "https://prestonsmiles.com/",
       links: [
          {
             id: 1,
-            title: "onboarding presentation",
+            title: "Personal Branding",
             href: "/services",
          },
          {
             id: 2,
-            title: "policy deck & playbook",
+            title: "Motivational Content Strategy",
+            href: "/services",
+         },
+      ]
+   },
+   {
+      id: 10,
+      title: "Layers",
+      src: project10,
+      href: "https://dark-saas-mu.vercel.app/",
+      links: [
+         {
+            id: 1,
+            title: "SaaS UI Design",
             href: "/services",
          },
          {
-            id: 3,
-            title: "sales deck",
+            id: 2,
+            title: "Product Strategy",
+            href: "/services",
+         },
+      ]
+   },
+   {
+      id: 11,
+      title: "Fizzi",
+      src: project11,
+      href: "https://cans-lwah.vercel.app/?vercelToolbarCode=lC1r4YL6l0YnY6n",
+      links: [
+         {
+            id: 1,
+            title: "Web Application Development",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Brand Strategy",
             href: "/services",
          },
       ]
    },
 ];
+
 
 
 export const publicationItems = [
@@ -1216,105 +1230,89 @@ export const aboutPartberItems = [
 ];
 
 // contact page constants
-
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
-      title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      question: "What services does CheeSpace offer?",
+      title: "Overview",
+      description: "CheeSpace is your go-to agency for digital transformation. We offer a range of services, including Web & App Development, Branding, Marketing, Content Creation, and Business Growth Strategies.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
-         },
+            title: "Full Service List",
+            description: "We specialize in Web & App Development, UI/UX Design, Brand Strategy, Digital & Social Media Marketing, SEO, Graphic Design, Motion Graphics, E-commerce Solutions, and more."
+         }
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
-      title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      question: "How do I know which service is right for my business?",
+      title: "Guidance",
+      description: "We offer free consultations to understand your needs and recommend the best solutions tailored to your goals, budget, and industry.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
+            title: "Consultation",
+            description: "Book a free strategy session with us to discuss your business and explore the best digital solutions."
+         }
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
-      title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      question: "Do you provide branding and logo design?",
+      title: "Branding Services",
+      description: "Yes! We create powerful brand identities, including logo design, brand strategy, visual guidelines, and more to help you stand out.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
+            title: "Branding Packages",
+            description: "We offer complete branding solutions that include logo design, brand messaging, and identity systems."
+         }
       ],
       button: "read"
    },
    {
       id: 4,
-      question: "I want to become a part of the team! Do you hire?",
-      title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at ochi. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      question: "Can you help with marketing and content creation?",
+      title: "Marketing & Content",
+      description: "Definitely! We provide digital marketing strategies, social media management, paid advertising, email marketing, and high-quality content creation to help you reach and engage your audience.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to ochi@gmail.com with “-” and we will get back to you."
-         },
+            title: "Marketing Services",
+            description: "Our services include SEO, social media marketing, PPC campaigns, video marketing, and automation solutions."
+         }
       ],
       button: "read"
    },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
-      title: "Description",
-      description: "The short answer is yes.",
+      question: "Do you offer business growth and sales optimization strategies?",
+      title: "Growth & Strategy",
+      description: "Yes! We work with startups and businesses to optimize sales funnels, improve customer engagement, and scale operations for maximum growth.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
-         },
+            title: "Growth Strategy",
+            description: "We analyze your business model, market positioning, and customer journey to create a roadmap for success."
+         }
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
-      title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      question: "How do I get started with CheeSpace?",
+      title: "Get Started",
+      description: "Getting started is easy! Contact us, and we’ll discuss your project, goals, and the best approach to bring your vision to life.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
+            title: "Contact Us",
+            description: "Reach out via email, WhatsApp, or our website form, and let’s build something amazing together!"
+         }
       ],
       button: "read"
-   },
+   }
 ];
