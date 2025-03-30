@@ -37,7 +37,7 @@ export default function About() {
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className=" sub-heading text-secondry font-NeueMontreal   "  >
-							WE GET IT! GROWING A BUSINESS IS TOUGH
+							We get it! growing a business is tough.
 						</h3>
 						
 					</div>
