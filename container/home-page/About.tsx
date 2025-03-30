@@ -39,14 +39,14 @@ export default function About() {
 						<h3 className="text-2xl  text-secondry font-NeueMontreal font-bold  "  >
 							WE GET IT! GROWING A BUSINESS IS TOUGH
 						</h3>
-						<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-							YOU’RE FEELING OVERWHELMED WITH ENDLESS DECISIONS AND TASKS. SHOULD YOU REVAMP YOUR WEBSITE, BOOST YOUR SOCIAL MEDIA PRESENCE, OR INVEST IN SEO? <br />IT’S ENOUGH TO MAKE ANYONE’S HEAD SPIN!
-						</p>
+						
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex  h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[80%] sm:w-[80%] xm:w-[80%]">
-
+<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
+							YOU’RE FEELING OVERWHELMED WITH ENDLESS DECISIONS AND TASKS. SHOULD YOU REVAMP YOUR WEBSITE, BOOST YOUR SOCIAL MEDIA PRESENCE, OR INVEST IN SEO? <br />IT’S ENOUGH TO MAKE ANYONE’S HEAD SPIN!
+						</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[20px] tracking-wide">
 									It’s exhausting and draining. But it doesn’t have to be this way.
 									We're here to elevate your business and take it to the next level <br /> More stability, revenue and global clients. Whatever your goals are, We will help you succeed with expert solutions in Web & Mobile development, Branding, Digital marketing, SEO, and IT support. <br />
