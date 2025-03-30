@@ -18,40 +18,39 @@ export default function About() {
 			/>
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					ochi is a strategic partner for fast-grow­ing tech
-					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
+					Cheespace is a strategic partner for fast-grow­ing brands
+					<b className="sm:hidden xm:hidden" /> helping businesses build identity,&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						raise funds,
+						launch and scale,
 					</span>
-					&nbsp;sell prod­ucts, <br className="sm:hidden xm:hidden" />
+					&nbsp;drive sales, <b className="sm:hidden xm:hidden" />
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						ex­plain com­plex ideas,
+						simplify complex ideas
 					</span>
-					&nbsp;and&nbsp;
+
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						hire great peo­ple.
+						&nbsp; to dominate their industry.
 					</span>
 				</h2>
 			</div>
 			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
-							What you can expect?
+						<h3 className="text-3xl  text-secondry font-NeueMontreal font-bold  "  >
+							WE GET IT! GROWING A BUSINESS IS TOUGH
 						</h3>
+						<p className="sub-paragraph font-bold font-NeueMontreal text-secondry tracking-wide">
+							YOU’RE FEELING OVERWHELMED WITH ENDLESS DECISIONS AND TASKS. SHOULD YOU REVAMP YOUR WEBSITE, BOOST YOUR SOCIAL MEDIA PRESENCE, OR INVEST IN SEO? <br />IT’S ENOUGH TO MAKE ANYONE’S HEAD SPIN!
+						</p>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
-							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									We create tailored presentations to help you persuade your
-									colleagues, clients, or investors. Whether it’s live or
-									digital, delivered for one or a hundred people.
-								</p>
+						<div className="w-full flex  h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
+							<div className="w-[80%] sm:w-[80%] xm:w-[80%]">
+
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									We believe the mix of strategy and design (with a bit of
-									coffee) is what makes your message clear, convincing, and
-									captivating.
+									It’s exhausting and draining. But it doesn’t have to be this way.
+									We're here to elevate your business and take it to the next level <br /> More stability, revenue and global clients. Whatever your goals are, We will help you succeed with expert solutions in Web & Mobile development, Branding, Digital marketing, SEO, and IT support. <br />
+									Your business deserves more than just a logo <br />It needs a complete brand experience that turns visitors into loyal customers.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
@@ -86,9 +85,7 @@ export default function About() {
 				<div className="flex flex-col gap-[30px]">
 					<Heading title="Our approach:" />
 					<p className="font-medium font-NeueMontreal text-secondry ">
-						We believe the mix of strategy and design with a bit of
-						coffee <br />is what makes your message clear, convincing, and
-						captivating.
+						At Cheespace we believe your brand is more than just your business it is your identity<br /> So we craft strategies that amplifies your uniqueness and lets you stand out.
 					</p>
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
@@ -104,7 +101,7 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full h-[350px] sm:h-[250px] xm:h-[250px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+					className={`w-[60%] sm:w-full xm:w-full h-[350px] sm:h-[250px] xm:h-[250px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
 						}`}>
 					<iframe
 						className="w-full h-full object-cover transition transform duration-[2s] ease-[.215,.61,.355,1] rounded-[15px]"

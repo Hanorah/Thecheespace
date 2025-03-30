@@ -7,8 +7,8 @@
 6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm config get registry
 8 verbose argv "config" "get" "registry"
-9 verbose logfile logs-max:10 dir:C:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-03-28T02_54_11_714Z-
-10 verbose logfile C:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-03-28T02_54_11_714Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-03-30T00_27_27_058Z-
+10 verbose logfile C:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-03-30T00_27_27_058Z-debug-0.log
 11 silly logfile start cleaning logs, removing 2 files
 12 verbose cwd C:\Users\HP\Desktop\ochi-website-clone-master
 13 verbose os Windows_NT 10.0.19045

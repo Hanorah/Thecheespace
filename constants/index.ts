@@ -98,148 +98,109 @@ export const footernavbarItems = [
    },
 ];
 
+
 export const clientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
-      title: "Services:",
+      website: "Millionyse",
+      href: "https://millionyse.com/",
+      title: "Services Provided:",
       name: "William Barnes",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "CheeSpace transformed our brand's online presence with an amazing website. They took the time to understand our vision and executed it flawlessly. From branding to SEO, they covered everything. A game-changer for us!",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Brand Strategy & Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "SEO & Digital Marketing",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
-      title: "Services:",
-      name: "Nina Walloch",
+      website: "Shadeum",
+      href: "https://shardeum.org/",
+      title: "Services Provided:",
+      name: "Adam Koch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "The CheeSpace team made the entire process seamless. The results speak for themselves – increased engagement, better customer retention, and a website we’re proud of!",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Web Development & Optimization",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "Content Marketing & SEO",
             href: "/services",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "Brand Identity & Positioning",
             href: "/services",
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "Marketing Strategy",
             href: "/services",
          },
          {
             id: 5,
-            title: "product presentation",
-            href: "/services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
+            title: "Startup Pitch Deck Design",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      website: "Workiz Easy",
-      href: "https://www.workiz.com",
-      title: "Services:",
-      name: "Tormer levy",
+      website: "Block Chain",
+      href: "https://block-chain-sable.vercel.app/",
+      title: "Services Provided:",
+      name: "Nancy Puduk",
       src: client03,
-      review: "ochi brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations ochi developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "We needed a digital strategy that worked, and CheeSpace delivered beyond our expectations. Their data-driven approach to marketing and sales optimization helped us reach new audiences and improve conversions. Professional, creative, and results-driven!",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "Digital Marketing Strategy",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
+            title: "Business Presentation Design",
             href: "/services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "redesign",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "sales deck",
+            title: "Business Growth & Sales Optimization",
             href: "/services",
          },
       ]
    },
-   {
-      id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
-      title: "Services:",
-      name: "Elien Kim",
-      src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
-      links: [
-         {
-            id: 1,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "illustration",
-            href: "/services",
-         },
-      ]
-   },
+
    {
       id: 5,
       website: "Hypercare Systems",
       href: "https://www.hypercare-systems.com",
-      title: "Services:",
+      title: "Services Provided:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from ochi was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from CheeSpace was absolutely first-class. Their close attention to detail and deep thought in terms of narrative, flow, and aesthetics exceeded my expectations. Their expertise in visuals, animation, and branding was exceptional.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Website Design & Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "startup pitch",
+            title: "Visual Identity & Branding",
             href: "/services",
          },
       ]
@@ -248,14 +209,14 @@ export const clientsItem = [
       id: 6,
       website: "Officevibe",
       href: "https://www.officevibe.com",
-      title: "Services:",
+      title: "Services Provided:",
       name: "Raff Labri",
       src: client06,
-      review: "ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!",
+      review: "CheeSpace has an impressive understanding of what’s needed for an effective presentation. The stakeholders at work said it’s the best, most complete template they’ve ever seen. Will work with CheeSpace again for sure!",
       links: [
          {
             id: 1,
-            title: "branded template deck",
+            title: "Corporate Branding & Templates",
             href: "/services",
          },
       ]
@@ -264,34 +225,24 @@ export const clientsItem = [
       id: 7,
       website: "Orderlion",
       href: "https://www.orderlion.com",
-      title: "Services:",
+      title: "Services Provided:",
       name: "Stefan Strohmer",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "The result was just amazing! CheeSpace delivered exactly what we needed. They are very talented designers who understand real business problems and iterate over many drafts to achieve the best possible outcome.",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Brand Strategy & Consulting",
             href: "/services",
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "Investor & Sales Deck Design",
             href: "/services",
          },
          {
             id: 3,
-            title: "product presentation",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
+            title: "Product Marketing & Presentation",
             href: "/services",
          },
       ]
@@ -300,19 +251,19 @@ export const clientsItem = [
       id: 8,
       website: "Black Book",
       href: "https://www.blackbookapp.co",
-      title: "Services:",
+      title: "Services Provided:",
       name: "Jacki Smith",
       src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
+      review: "They nailed what our product was all about. Their ability to explore different angles and take feedback was great. Everything was handled well and professionally.",
       links: [
          {
             id: 1,
-            title: "review",
+            title: "App Development & UI/UX Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "startup pitch",
+            title: "Startup Business Strategy",
             href: "/services",
          },
       ]
@@ -320,111 +271,115 @@ export const clientsItem = [
    {
       id: 9,
       website: "Trawa Energy",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
+      href: "https://www.trawaenergy.com",
+      title: "Services Provided:",
       name: "David Buddy",
       src: client09,
-      review: "We were surprised by the accuracy with which ochi nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "We were surprised by how well CheeSpace captured the overall design language that aligned perfectly with our brand vision.",
       links: [
          {
             id: 1,
-            title: "branding",
+            title: "Brand Development & Identity",
             href: "/services",
          },
          {
             id: 2,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "startup pitch",
+            title: "Investor Deck & Pitch Strategy",
             href: "/services",
          },
       ]
    },
-
 ];
 
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
-      href: "/case/",
+      title: "Shadeum",
+      href: "https://shardeum.org/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Blockchain Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "Decentralized App Solutions",
             href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "slides design",
+            title: "Smart Contract Audits",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "vise",
-      href: "/case/",
+      title: "Enkonix",
+      href: "https://enkonix.com/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Full Stack Development",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "Product Design & UI/UX",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Business Automation Solutions",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "trawa",
-      href: "/case/",
-      src: project3,
+      title: "Lazarev",
+      href: "https://www.lazarev.agency/",
+      src: project6,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Brand Identity & Positioning",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
+            title: "UI/UX & Web Design",
             href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "Design Research & Strategy",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "premiumblend",
-      href: "/case/",
-      src: project4,
+      title: "Minuttia",
+      href: "https://minuttia.com/",
+      src: project7,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Content Marketing Strategy",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "SEO & Growth Marketing",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Digital Branding",
             href: "/services",
          },
       ]

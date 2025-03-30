@@ -17,7 +17,7 @@ export default function Hero() {
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								WE CREATE  <br />
+								WE HELP CREATE<br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -37,10 +37,10 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										BRANDS THAT
+										YOUR BRAND
 									</h1>
 								</div>
-								STAND OUT
+								YOUR IDENTITY
 							</h1>
 						</div>
 
@@ -49,13 +49,14 @@ export default function Hero() {
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
 							<div className="w-[50%] xm:w-full sm:w-full">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									For public and private companies
+									Local growth. Global impact.
 								</p>
 							</div>
 							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
 								<div>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										From the first picth to IPO
+										From first pitch to IPO
+
 									</p>
 								</div>
 								<div className="flex items-center gap-[5px] group">

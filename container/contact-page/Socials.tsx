@@ -56,12 +56,12 @@ export default function Socials() {
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`165 MMWAY`}
+										title={`202-1965 W 4th Awe`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Benin City, Nigeria`}
+										title={`Vancouver, Canada`}
 										href="/"
 									/>
 									<LinkHover
