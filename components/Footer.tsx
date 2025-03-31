@@ -13,7 +13,7 @@ export default function Footer() {
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col gap-[30px]">
 
 				{/* Left: Animated Text */}
-				<div className="flex flex-col w-1/2 sm:w-full xm:w-full">
+				<div className="flex flex-col w-full sm:w-full xm:w-full">
 					<h1 className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-secondry uppercase">
 						<TextMask>{phrase}</TextMask>
 					</h1>
