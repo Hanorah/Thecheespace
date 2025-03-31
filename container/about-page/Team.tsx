@@ -7,7 +7,7 @@ export default function Team() {
 		<section className="w-full bg-marquee min-h-screen rounded-t-[20px]">
 			<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 				<Marquee
-					title="the team core of"
+					title="the cheespace"
 					className="pb-[50px] lg:pb-[40px] md:pb-[30px] sm:pb-[25px] xm:pb-[18px] text-[540px] leading-[330px] lg:text-[380px] lg:leading-[240px] md:text-[300px] md:leading-[160px] sm:text-[230px] sm:leading-[140px] xm:text-[130px] xm:leading-[80px]"
 				/>
 			</div>
@@ -19,8 +19,8 @@ export default function Team() {
 								<Image
 									src={logo}
 									alt="ochi-logo"
-									width={50}
-									height={50}
+									width={100}
+									height={100}
 								/>
 							</div>
 							<div>
@@ -39,14 +39,10 @@ export default function Team() {
 						<div className="flex justify-between items-end sm:flex-col xm:flex-col sm:items-start xm:items-start">
 							<div>
 								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
-									IHOR <br /> HULYAHRODSKYY
+									HANORAH <br /> ROLAND
 								</h1>
 							</div>
-							<div>
-								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
-									1 / 4
-								</h1>
-							</div>
+
 						</div>
 					</div>
 				</div>

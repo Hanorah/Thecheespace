@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components";
-import { serviceClientsItem } from "@/constants";
+import { clientsItem } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Clients() {
 	const [activeAccordion, setActiveAccordion] = useState(
-		serviceClientsItem[0].id,
+		clientsItem[0].id,
 	);
 	const toggleAccordion = (itemId: any) => {
 		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
@@ -18,14 +18,13 @@ export default function Clients() {
 			<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
 				Clients’ reviews
 			</h1>
-			{serviceClientsItem.map((item) => (
+			{clientsItem.map((item) => (
 				<div
 					key={item.id}
-					className={`w-full flex py-[10px] flex-col ${
-						item.id == 1
-							? "border-y border-[#21212155]"
-							: "border-b border-[#21212155]"
-					}`}>
+					className={`w-full flex py-[10px] flex-col ${item.id == 1
+						? "border-y border-[#21212155]"
+						: "border-b border-[#21212155]"
+						}`}>
 					<div className="w-full flex items-center justify-between py-[10px] padding-x">
 						<div className="w-[50%] flex items-center">
 							<div className="w-[40%] sm:w-auto xm:w-auto">
@@ -37,9 +36,8 @@ export default function Clients() {
 							</div>
 							<div className="w-auto sm:hidden xm:hidden">
 								<motion.h3
-									className={`small-text font-normal font-NeueMontreal text-secondry ${
-										activeAccordion === item.id ? "opacity-100" : "opacity-0"
-									} opacity-0 transition-all duration-200 ease-in-out`}>
+									className={`small-text font-normal font-NeueMontreal text-secondry ${activeAccordion === item.id ? "opacity-100" : "opacity-0"
+										} opacity-0 transition-all duration-200 ease-in-out`}>
 									{item.title}
 								</motion.h3>
 							</div>
@@ -52,11 +50,10 @@ export default function Clients() {
 							</div>
 							<div className="w-[10%] sm:w-auto xm:w-auto flex items-end justify-end">
 								<button
-									className={`small-text font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
-										activeAccordion === item.id
-											? "text-gray-300"
-											: "text-secondry link-flash"
-									}`}
+									className={`small-text font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${activeAccordion === item.id
+										? "text-gray-300"
+										: "text-secondry link-flash"
+										}`}
 									onClick={() => toggleAccordion(item.id)}>
 									{activeAccordion === item.id ? "read" : "read"}
 								</button>

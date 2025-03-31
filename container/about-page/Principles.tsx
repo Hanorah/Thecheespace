@@ -12,33 +12,27 @@ export default function Principles() {
 			</div>
 			<div className="w-full border-t border-[#21212155]">
 				<div className="w-full padding-x mt-[50px] flex justify-between gap-[30px] items-center sm:flex-col xm:flex-col">
-					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
-						<Image
-							src={principles1}
-							alt="img"
-							className="w-full rounded-[15px]"
-						/>
-						<div className="flex flex-col gap-[20px]">
-							<p className="paragraph font-NeueMontreal text-secondry">
-								Whether the presentation needs to convince or <br />
-								educate it always has to change audience
-								<br /> perception. We seek insights to make decks
-								<br /> unexpectedly enlightening for our audience.
-							</p>
-						</div>
-					</div>
-					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
+					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[30px]">
 						<Image
 							src={principles2}
 							alt="img"
 							className="w-full rounded-[15px]"
 						/>
-						<div className="flex flex-col gap-[20px]">
+						<div className="flex flex-col gap-[30px]">
 							<p className="paragraph font-NeueMontreal text-secondry">
-								The presentation helps to see what&apos;s hidden,
-								<br /> unseen, or simply never known before. We use <br />
-								design to drive their attention, focus them to <br />
-								clearly see, and help them feel the message.
+								At CheeSpace, we believe a brand isn’t just a company—it’s an identity.<br /> Every project we take on is designed to define, refine, and amplify your brand’s unique story.
+							</p>
+						</div>
+					</div>
+					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[30px]">
+						<Image
+							src={principles1}
+							alt="img"
+							className="w-full rounded-[15px]"
+						/>
+						<div className="flex flex-col gap-[30px]">
+							<p className="paragraph font-NeueMontreal text-secondry">
+								Great design isn’t just about looking good—it’s about working smart. Whether it’s a website, a pitch deck, or a marketing campaign, we merge creativity with strategy to create high-impact, high-converting digital assets that take businesses from local recognition to global influence.
 							</p>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, nestle, officevibe, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3 } from "@/public";
+import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, phase1, phase2, phase3, phase4, phase5, phase6, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3, publication4, publication5, } from "@/public";
 
 // Navbar
 export const navbarItems = [
@@ -19,9 +19,10 @@ export const navbarItems = [
    },
    {
       id: 4,
-      title: "Insights",
-      href: "/insights",
+      title: "Case Study",
+      href: "/case",
    },
+
    {
       id: 5,
       title: "Contact us",
@@ -62,6 +63,12 @@ export const footerItems = [
       href: "https://www.twitter.com/",
       img: "/twi.png",
    },
+   {
+      id: 5,
+      title: "Whatsapp",
+      href: "https://wa.link/4e87fq",
+      img: "/whatsapp.png",
+   },
 ];
 
 
@@ -86,15 +93,16 @@ export const footernavbarItems = [
       title: "About us",
       href: "ochi-team",
    },
-   {
-      id: 5,
-      title: "Insights",
-      href: "insights",
-   },
+
    {
       id: 6,
       title: "Contact us",
       href: "contact",
+   },
+   {
+      id: 7,
+      title: "Case Study",
+      href: "case",
    },
 ];
 
@@ -205,90 +213,7 @@ export const clientsItem = [
          },
       ]
    },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services Provided:",
-      name: "Raff Labri",
-      src: client06,
-      review: "CheeSpace has an impressive understanding of what’s needed for an effective presentation. The stakeholders at work said it’s the best, most complete template they’ve ever seen. Will work with CheeSpace again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "Corporate Branding & Templates",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services Provided:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! CheeSpace delivered exactly what we needed. They are very talented designers who understand real business problems and iterate over many drafts to achieve the best possible outcome.",
-      links: [
-         {
-            id: 1,
-            title: "Brand Strategy & Consulting",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "Investor & Sales Deck Design",
-            href: "/services",
-         },
-         {
-            id: 3,
-            title: "Product Marketing & Presentation",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services Provided:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. Their ability to explore different angles and take feedback was great. Everything was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "App Development & UI/UX Design",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "Startup Business Strategy",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 9,
-      website: "Trawa Energy",
-      href: "https://www.trawaenergy.com",
-      title: "Services Provided:",
-      name: "David Buddy",
-      src: client09,
-      review: "We were surprised by how well CheeSpace captured the overall design language that aligned perfectly with our brand vision.",
-      links: [
-         {
-            id: 1,
-            title: "Brand Development & Identity",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "Investor Deck & Pitch Strategy",
-            href: "/services",
-         },
-      ]
-   },
+
 ];
 
 export const projectItem = [
@@ -395,376 +320,174 @@ export const serviceProcessItems = [
       phase: "01. Phase",
       name: "Discovery",
       src: phase1,
-      review: "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions.",
+      review: "We start by understanding your business, defining your goals, identifying your target audience, and researching the best approach to position your brand.",
       button: "read"
    },
    {
       id: 2,
       phase: "02. Phase",
-      name: "Storytelling",
+      name: "Brand Strategy",
       src: phase2,
-      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
+      review: "With insights in place, we craft a compelling brand story and strategic positioning that make your business memorable and impactful.",
       button: "read"
    },
    {
       id: 3,
       phase: "03. Phase",
-      name: "Design",
+      name: "Visual Identity & Website",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression.",
+      review: "We design a stunning brand identity and a conversion-focused website that reflects your vision and engages your audience.",
       button: "read"
    },
    {
       id: 4,
       phase: "04. Phase",
-      name: "Feedback",
+      name: "Marketing & Social Media",
       src: phase4,
-      review: "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears.",
+      review: "We help you get the word out by creating social media pages, custom designs, and marketing campaigns that help you connect with potential customers.",
       button: "read"
    },
    {
       id: 5,
       phase: "05. Phase",
-      name: "Delivery",
+      name: "Feedback & Refinements",
       src: phase5,
-      review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+      review: "Your input matters. We refine every detail to ensure the final deliverables match your expectations and vision.",
+      button: "read"
+   },
+   {
+      id: 6,
+      phase: "06. Phase",
+      name: "Launch & Growth Strategy",
+      src: phase6,
+      review: "We equip you with the tools, assets, and strategy needed to launch and scale your business confidently.",
       button: "read"
    },
 ];
 
-export const serviceClientsItem = [
-   {
-      id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
-      title: "Services:",
-      name: "William Barnes",
-      src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
-      title: "Services:",
-      name: "Nina Walloch",
-      src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "big news deck",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "branded template",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "services",
-         },
-         {
-            id: 5,
-            title: "product presentation",
-            href: "services",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "services",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 3,
-      website: "Workiz Easy",
-      href: "https://www.workiz.com",
-      title: "Services:",
-      name: "Tormer levy",
-      src: client03,
-      review: "ochi brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations ochi developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
-      links: [
-         {
-            id: 1,
-            title: "compony presentation",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "onboarding presentation",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "policy deck and playbook",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "redesign",
-            href: "services",
-         },
-         {
-            id: 5,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
-      title: "Services:",
-      name: "Elien Kim",
-      src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
-      links: [
-         {
-            id: 1,
-            title: "branded template",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "illustration",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
-      src: client05,
-      review: "The service received from ochi was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
-      src: client06,
-      review: "ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!",
-      links: [
-         {
-            id: 1,
-            title: "branded template deck",
-            href: "/services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
-      src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "services",
-         },
-         {
-            id: 3,
-            title: "product presentation",
-            href: "services",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "services",
-         },
-      ]
-   },
-];
 
 
-
-
-export const serviceCapaybilitiesItem = [
+export const serviceCapabilitiesItem = [
    {
       id: 1,
       src1: capaybilities1,
-      title1: "RAISE FUNDS:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "LAUNCH & SCALE YOUR BUSINESS:",
+      review: "Your brand is more than just a logo—it’s an identity. We help startups and businesses establish a strong digital presence with high-converting websites, strategic branding, and engaging content that drives growth. A weak online presence could cost you potential customers, but a well-crafted brand strategy ensures you stand out in your industry.",
+      subTitle: "Services",
       links1: [
          {
             id: 1,
-            title: "investor deck",
-            href: "/"
+            title: "Business Starter Kit",
+            href: "/contact"
          },
          {
             id: 2,
-            title: "startup pitch",
-            href: "/"
+            title: "Website Development",
+            href: "/contact"
+         },
+         {
+            id: 3,
+            title: "Brand Identity & Strategy",
+            href: "/contact"
+         },
+         {
+            id: 4,
+            title: "E-commerce Solutions",
+            href: "/contact"
          },
       ],
       src2: capaybilities2,
-      title2: "SELL PRODUCTS:",
+      title2: "MARKET & SELL YOUR SERVICES:",
       links2: [
          {
             id: 1,
-            title: "business proposal",
-            href: "/"
+            title: "Social Media Management",
+            href: "/contact"
          },
          {
             id: 2,
-            title: "company presentation",
-            href: "/"
+            title: "Paid Advertising (Google & Social Media Ads)",
+            href: "/contact"
          },
          {
             id: 3,
-            title: "product presentation",
-            href: "/"
+            title: "Content Marketing & SEO",
+            href: "/contact"
          },
          {
             id: 4,
-            title: "sales deck",
-            href: "/"
+            title: "Sales Funnel & Conversion Optimization",
+            href: "/contact"
          },
          {
             id: 5,
-            title: "service deck",
-            href: "/"
+            title: "Marketing Automation & Email Campaigns",
+            href: "/contact"
          },
       ]
    },
+
    {
       id: 2,
       src1: capaybilities3,
-      title1: "HIRE & MANAGE PEOPLE:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "BUILD AUTHORITY & ENGAGE YOUR AUDIENCE:",
+      review: "A business that connects with its audience builds loyalty and credibility. We craft compelling digital experiences that turn visitors into loyal customers. From high-quality content to professional presentations, we help you communicate your value in a way that captivates and converts.",
+      subTitle: "Services",
       links1: [
          {
             id: 1,
-            title: "big news deck",
-            href: "/"
+            title: "Corporate & Startup Pitch Decks",
+            href: "/contact"
          },
          {
             id: 2,
-            title: "branded template",
-            href: "/"
+            title: "Company Profile & Business Proposal",
+            href: "/contact"
          },
          {
             id: 3,
-            title: "onboarding presentation",
-            href: "/"
+            title: "Motion Graphics & Video Editing",
+            href: "/contact"
          },
          {
             id: 4,
-            title: "policy deck & playbook",
-            href: "/"
+            title: "Graphic Design & Presentation Templates",
+            href: "/contact"
          },
          {
             id: 5,
-            title: "progress report",
-            href: "/"
+            title: "Community Engagement Strategy",
+            href: "/contact"
          },
       ],
+
       src2: capaybilities4,
-      title2: "ADDITIONAL:",
+      title2: "ADDITIONAL SERVICES:",
       links2: [
          {
             id: 1,
-            title: "agency",
-            href: "/"
+            title: "UI/UX Design",
+            href: "/contact"
          },
          {
             id: 2,
-            title: "branding",
-            href: "/"
+            title: "App Development",
+            href: "/contact"
          },
          {
             id: 3,
-            title: "corporate training",
-            href: "/"
+            title: "Digital Business Growth Consulting",
+            href: "/contact"
          },
          {
             id: 4,
-            title: "redesign",
-            href: "/"
+            title: "Rebranding & Website Redesign",
+            href: "/contact"
          },
          {
             id: 5,
-            title: "review",
-            href: "/"
+            title: "Analytics & Data-Driven Strategy",
+            href: "/contact"
          },
       ]
    },
@@ -774,62 +497,63 @@ export const expectationsItems = [
    {
       id: 1,
       title1: "01",
-      subTitle1: "Comunication",
+      subTitle1: "Clear Communication",
       btn: "read",
-      para1: "The relationship with the clients is our top priority. We put extra effort into keeping mutual respect, honesty, and clarity in the conversation. For each client, we develop a project view site in Notion to track milestones and see the thinking behind steps. You always know what and when we do, as you feel confident in the results we bring.",
+      para1: "At CheeSpace, we prioritize transparent and effective communication. Every client is given a dedicated workspace in Notion to track progress, milestones, and key decisions. You’ll always be informed, ensuring clarity and confidence throughout the project.",
    },
    {
       id: 2,
-      title1: "04",
-      subTitle1: "One point of contact",
+      title1: "02",
+      subTitle1: "Personalized Service",
       btn: "read",
-      para1: "Every project is led by Ihor, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
+      para1: "Every project is handled with a hands-on approach. We assemble the right creative team tailored to your business needs. You'll always have a direct point of contact, ensuring seamless collaboration and an understanding of your unique goals.",
    },
    {
       id: 3,
-      title1: "02",
-      subTitle1: "Ukrainian Business",
+      title1: "03",
+      subTitle1: "Built for Growth",
       btn: "read",
-      para1: "We are a Ukrainian-born business working mainly with international clients. And as Ukrainians, we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Ukraine ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
+      para1: "We don’t just design and develop—we build solutions that scale. Whether it’s branding, web development, or marketing strategy, our work is geared toward long-term growth, helping your business expand in a competitive market.",
    },
    {
       id: 4,
-      title1: "05",
-      subTitle1: "Constantly Improving",
+      title1: "04",
+      subTitle1: "Continuous Innovation",
       btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
+      para1: "The digital landscape evolves rapidly, and so do we. Our team continuously learns, refines, and improves to stay ahead of trends. We incorporate the latest technologies and best practices to deliver cutting-edge solutions for our clients.",
    },
    {
       id: 5,
-      title1: "03",
-      subTitle1: "Holistic Approach",
+      title1: "05",
+      subTitle1: "Holistic Strategy",
       btn: "read",
-      para1: "We simply ask lots of questions to understand your goals, business, and niche you operate. Our discovery process is essential as it informs our decisions throughout the project. Once we firmly define the goal, it is incredible to move towards that goal. That's why so much of our work is discovery, research, and asking good questions. The answers we get and the data we find go into the foundation of project success.",
+      para1: "We take the time to understand your business, industry, and objectives. Through research and strategic discovery, we align our solutions with your goals, ensuring every decision is data-driven and impactful.",
    },
    {
       id: 6,
       title1: "06",
-      subTitle1: "Limited Amount of Client",
+      subTitle1: "Quality Over Quantity",
       btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
+      para1: "We work with a select number of clients to maintain our high-quality standards. Every project gets our full attention, ensuring meticulous execution and a tailored experience that drives real results.",
    },
 ];
 
 export const achiveItems = [
    {
       id: 1,
-      title1: ["100+"],
-      title2: ["$280+"],
-      subTitle1: "Clients from 17 Countries",
-      subTitle2: "Millions raised for our clients",
+      title1: ["50+"],
+      title2: ["$100k+"],
+      subTitle1: "Businesses transformed with our services",
+      subTitle2: "Revenue generated for our clients",
    },
    {
       id: 2,
-      title1: ["90%"],
-      title2: ["98%"],
-      subTitle1: "Of our clients come back",
-      subTitle2: "Net Promoting Score",
+      title1: ["95%"],
+      title2: ["100%"],
+      subTitle1: "Client satisfaction rate",
+      subTitle2: "Projects delivered on time",
    },
+
 ];
 
 
@@ -1050,75 +774,31 @@ export const presentationProjectItem = [
 export const publicationItems = [
    {
       id: 1,
-      title: "officevibe ppt template",
+      title: "Payark",
       src: publication1
    },
    {
       id: 2,
-      title: "trawa energy pitch deck",
+      title: "Fit-Guide",
       src: publication2
    },
    {
       id: 3,
-      title: "tech for ukraine",
+      title: "Fitness",
       src: publication3
    },
-];
-
-// insights page constants
-
-export const insightsPublicationItems = [
    {
-      id: 1,
-      title: "Sales calls?  Oh no!👀",
-      src: insights1
+      id: 4,
+      title: "Homotiq",
+      src: publication4
    },
    {
-      id: 2,
-      title: "Are you trying to be the main character?",
-      src: insights2
-   },
-   {
-      id: 3,
-      title: "New Top 7",
-      src: insights3
+      id: 5,
+      title: "Finansync",
+      src: publication5
    },
 ];
 
-export const latestItemss = [
-   {
-      id: 1,
-      href: "/",
-      src: latest1,
-      links: [
-         {
-            id: 1,
-            title: "public speaking"
-         },
-         {
-            id: 1,
-            title: "storytelling"
-         },
-      ],
-      title: "Presenting to an International Audience: <br/> Tips and Lessons Learned.",
-      subTitle: "By Ihor Hulyahrodskyy",
-      date: "26 May 2023"
-   },
-   {
-      id: 2,
-      href: "/",
-      src: latest2,
-      links: [
-         {
-            id: 1,
-            title: "presentation template"
-         },
-      ],
-      title: "Developing compony-wide presentation template for premium blend.",
-      subTitle: "By Ihor Hulyahrodskyy",
-      date: "07 Dec 2022"
-   },
-];
 
 // workiz page constants
 export const workizItem = [
@@ -1175,59 +855,6 @@ export const workizItem = [
    },
 ];
 
-
-// about page constants
-
-export const aboutPartberItems = [
-   {
-      id: 1,
-      src: planetly,
-      title: "Planetly",
-      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
-   },
-   {
-      id: 2,
-      src: officevibe,
-      title: "Officevibe",
-      para: "ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with ochi again for sure!"
-   },
-   {
-      id: 3,
-      src: nestle,
-      title: "Nestle",
-      para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Ihor and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
-   },
-   // {
-   //    id: 4,
-   //    src: toyota,
-   //    title: "Toyota",
-   //    para: "Great work, great communication, and work ethic. Their skills, and understanding of project scope and subject matter - are simply unmatched. Looking very forward to working again soon."
-   // },
-   // {
-   //    id: 5,
-   //    src: lexus,
-   //    title: "Lexus",
-   //    para: "Thanks for your great work! The communication was excellent, the team was able to grasp in detail what we wanted and plastered it on the company presentation and sales deck. Their work is absolutely amazing."
-   // },
-   // {
-   //    id: 6,
-   //    src: aflorihtmic,
-   //    title: "Aflorithmic",
-   //    para: "Super responsive and quick. A charm to work with. Unfortunately, often designers are not like that and you end up losing a lot of time with briefings that don't lead anywhere. This is definitely not the case here. I'd work again with lhor and his team anytime!"
-   // },
-   // {
-   //    id: 7,
-   //    src: orderlion,
-   //    title: "Orderlion",
-   //    para: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!"
-   // },
-   // {
-   //    id: 8,
-   //    src: blackBox,
-   //    title: "BlackBox",
-   //    para: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We're very happy with the process and the final product. All was handled well and professionally."
-   // },
-];
 
 // contact page constants
 export const FaqItems = [

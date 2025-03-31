@@ -12,7 +12,7 @@ export default function Contact() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#fff"}>
 				<Herocontact />
 				<Form />
 				<Socials />

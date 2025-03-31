@@ -24,9 +24,11 @@ export { default as client06 } from './client06.png';
 export { default as client07 } from './client07.jpeg';
 export { default as client08 } from './client08.png';
 export { default as client09 } from './client09.png';
-export { default as publication1 } from './publication1.jpeg';
-export { default as publication2 } from './publication2.png';
-export { default as publication3 } from './publication3.png';
+export { default as publication1 } from './publication1.webp';
+export { default as publication2 } from './publication2.webp';
+export { default as publication3 } from './publication3.webp';
+export { default as publication4 } from './publication4.webp';
+export { default as publication5 } from './publication5.webp';
 export { default as ochiside } from './ochi-side.png';
 export { default as eyeplay } from './eyeplay.svg';
 export { default as contactHero } from './contacthhero.jpg';
@@ -37,20 +39,14 @@ export { default as phase2 } from './phase2.png';
 export { default as phase3 } from './phase3.png';
 export { default as phase4 } from './phase4.png';
 export { default as phase5 } from './phase5.png';
+export { default as phase6 } from './phase6.png';
 export { default as capaybilities1 } from './capybilities1.jpeg';
 export { default as capaybilities2 } from './capybilities2.jpeg';
 export { default as capaybilities3 } from './capybilities3.jpeg';
 export { default as capaybilities4 } from './capybilities4.jpeg';
-export { default as capaybilities5 } from './capybilities5.jpeg';
+
 export { default as background } from './background.png';
 
-// insights page assets
-
-export { default as insights1 } from './insights1.png';
-export { default as insights2 } from './insights2.jpeg';
-export { default as insights3 } from './insights3.jpeg';
-export { default as latest1 } from './latest1.png';
-export { default as latest2 } from './latest2.jpeg';
 
 // ochi-team
 export { default as backgroundAbout } from './background-about.jpeg';
@@ -58,8 +54,8 @@ export { default as Team1 } from './team1.jpeg';
 export { default as Team2 } from './team2.jpeg';
 export { default as Team3 } from './team3.jpeg';
 export { default as Team4 } from './team4.png';
-export { default as principles1 } from './principles1.jpeg';
-export { default as principles2 } from './principles2.jpeg';
+export { default as principles1 } from './principles1.svg';
+export { default as principles2 } from './principles2.svg';
 
 // workiz page
 export { default as workiz } from './workiz.jpeg';

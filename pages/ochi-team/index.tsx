@@ -3,8 +3,7 @@ import {
 	Heroabout,
 	Aboutabout,
 	Team,
-	Partners,
-	Insights,
+
 	Principles,
 } from "@/container";
 import { useEffect } from "react";
@@ -19,13 +18,11 @@ export default function About() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#fff"}>
 				<Heroabout />
 				<Aboutabout />
 				<Team />
 				<Principles />
-				<Partners />
-				<Insights />
 				<Ready />
 			</Curve>
 		</>

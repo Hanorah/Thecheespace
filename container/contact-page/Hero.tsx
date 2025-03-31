@@ -32,11 +32,26 @@ export default function Hero() {
 						A PROJECT TOGETHER
 					</h1>
 				</div>
-				<div className="w-full pb-[15px]">
-					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+				<div className="w-full pb-[3px] flex flex-col gap-2">
+					<a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+						<Image
+							src="/whatsapp.png"
+							alt="WhatsApp"
+							width={50}
+							height={50}
+						/>
+						<span className="paragraph font-medium text-secondry font-NeueMontreal">Chat with us on WhatsApp</span>
+					</a>
+					<h3 className="paragraph font-bold text-secondry font-NeueMontreal ml-5">
+						Or
+					</h3>
+					<h3 className="paragraph font-medium text-secondry font-NeueMontreal ml-5">
 						Fill the form below:
 					</h3>
+
 				</div>
+
+
 			</div>
 		</section>
 	);

@@ -8,99 +8,92 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Hero() {
 	return (
-		<section className="w-full min-h-screen">
-			<div className="w-full flex flex-col justify-between">
-				<div className="w-full flex flex-col">
-					<div className="w-full margin padding-x">
-						<div>
-							<h1 className="heading tracking-[-1.3px] text-[#000] font-semibold font-FoundersGrotesk uppercase">
-								WE ARE <br />
-								<div className="flex items-center gap-[5px]">
-									<motion.span
-										initial={{ width: 0 }}
-										animate={{ width: "auto" }}
-										transition={{
-											ease: [0.86, 0, 0.07, 0.995],
-											duration: 1,
-											delay: 1.5,
-										}}>
-										<Image
-											width={120}
-											height={50}
-											src={ochiside}
-											alt="img"
-											className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
-										/>
-									</motion.span>
-									<h1 className="heading tracking-[-1.3px] text-[#000] font-semibold font-FoundersGrotesk uppercase">
-										Cheespace
-									</h1>
-								</div>
-							</h1>
-						</div>
+		<section className="w-full min-h-screen flex flex-col justify-between">
+			{/* Heading Section */}
+			<div className="w-full margin padding-x">
+				<h1 className="heading tracking-[-1.3px] text-[#000] font-semibold font-FoundersGrotesk uppercase">
+					WE ARE <br />
+					<div className="flex items-center gap-[5px]">
+						<motion.span
+							initial={{ width: 0 }}
+							animate={{ width: "auto" }}
+							transition={{
+								ease: [0.86, 0, 0.07, 0.995],
+								duration: 1,
+								delay: 1.5,
+							}}
+						>
+							<Image
+								width={120}
+								height={50}
+								src={ochiside}
+								alt="img"
+								className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
+							/>
+						</motion.span>
+						<h1 className="heading tracking-[-1.3px] text-[#000] font-semibold font-FoundersGrotesk uppercase">
+							Cheespace
+						</h1>
 					</div>
-					<div className="w-full border-t border-[#21212155] pt-[20px]">
-						<div className="w-full flex justify-between  padding-x sm:flex-col xm:flex-col gap-[20px]">
-							<div className="w-[10%] sm:w-full xm:w-full">
-								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-									About us:
-								</h3>
-							</div>
-							<div className="w-[48%] flex justify-between sm:w-full xm:w-full sm:flex-col xm:flex-col gap-[20px]">
-								<div className="w-[50%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
-									<div className="flex flex-col gap-y-[20px]">
-										<p className="paragraph font-NeueMontreal text-secondry">
-											In Ukrainian, ochi - means eyes. It&apos;s not
-											<br /> just a beautiful word, but our philosophy.
-											<br />
-											Almost everything that needs to be
-											<br /> communicated is better shown than <br />
-											explained.
-										</p>
-									</div>
-									<div className="flex flex-col gap-y-[20px]">
-										<p className="paragraph font-NeueMontreal text-secondry">
-											We believe a great presentation evokes
-											<br />
-											interest and drives business results far
-											<br /> better than any saying can. Hence, we
-											<br />
-											founded ochi to help you persuade
-											<br /> colleagues and clients by creating eye-
-											<br />
-											opening presentations.
-										</p>
-									</div>
-								</div>
-								<div className="flex w-fit h-fit gap-[5px] group">
-									<div className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
-										<Link
-											href="/case"
-											className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-											Our Work
-										</Link>
-									</div>
-									<div className="w-[35px] flex items-center justify-center h-[35px] border border-[#21212199] rounded-[50px] p-[12px]  group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
-										<p className="paragraph font-normal text-secondry group-hover:text-background">
-											<ArrowUpRight strokeWidth={1.25} />
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+				</h1>
+			</div>
+
+			{/* About Us Section */}
+			<div className="w-full border-t border-[#21212155] pt-[20px] flex flex-col gap-[20px] padding-x">
+				<h3 className="text-4xl sm:text-3xl font-bold text-secondry font-NeueMontreal">
+					About us:
+				</h3>
+				<p className="paragraph font-NeueMontreal text-secondry ">
+					At Cheespace, we believe a brand is more than just a business—it’s an identity. Just like our names define who we are,a brand defines the essence of a company.
+
+					Our name, Cheespace, is rooted in identity and partnership:
+				</p>
+				<h3 className="text-4xl sm:text-3xl font-bold text-secondry font-NeueMontreal">
+					Our Founders:
+				</h3>
+				<p className="paragraph font-NeueMontreal text-secondry font-bold">
+					C - Caleb Johnson
+					<br />
+					H - Hanorah Roland
+					<br />
+					E - Ese Okon
+					<br />
+					E - Esther Elo
+					<br />
+
+				</p>
+				<p className="paragraph font-NeueMontreal text-secondry">
+					Cheespace was founded on the idea that businesses should be more than just companies; they should be powerful identities that connect with people. We are more than just a creative agency. We help businesses build a brand that truly represents them.
+
+					A business can have a name, but a great brand has a personality. Let’s create yours.
+				</p>
+
+				{/* Our Work Button */}
+				<div className="flex w-fit h-fit gap-[5px] group">
+					<Link
+						href="/case"
+						className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry py-[8px] px-[16px] cursor-pointer paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in"
+					>
+						Our Work
+					</Link>
+					<div className="w-[35px] flex items-center justify-center h-[35px] border border-[#21212199] rounded-[50px] p-[12px] group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
+						<p className="paragraph font-normal text-secondry group-hover:text-background">
+							<ArrowUpRight strokeWidth={1.25} />
+						</p>
 					</div>
 				</div>
 			</div>
-			<div
-				className="padding-y"
-				data-scroll
-				data-scroll-speed="-.1">
-				<Eyes className="w-[300px] h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px] sm:flex-col xm:flex-col" />
+
+			{/* Eyes Animation */}
+			<div className="padding-y" data-scroll data-scroll-speed="-.1">
+				<Eyes className="w-[300px] h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px]" />
 			</div>
+
+			{/* Closing Statement */}
 			<div className="padding-x">
-				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					We save businesses from ugly and
-					<br className="sm:hidden xm:hidden" /> ineffective presentations.
+				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry text-center">
+					We help businesses scale up
+					<br className="sm:hidden xm:hidden" /> from local roots to global reach.
 				</h1>
 			</div>
 		</section>

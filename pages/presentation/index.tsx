@@ -16,7 +16,7 @@ export default function Presentation() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#fff"}>
 				<Heropresentation />
 				<Projectspresentation />
 				<Publication />

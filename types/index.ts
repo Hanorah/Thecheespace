@@ -22,6 +22,7 @@ export type TLinkHoverProps = {
 export type TButtonProps = {
    title: string;
    href: string;
+   className?: string;
 };
 
 export type TRoundedProps = {

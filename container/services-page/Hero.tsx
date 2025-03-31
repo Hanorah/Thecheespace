@@ -1,3 +1,4 @@
+import { RoundButton } from "@/components";
 export default function Hero() {
 	return (
 		<section className="w-full min-h-screen">
@@ -11,17 +12,25 @@ export default function Hero() {
 						</div>
 					</div>
 					<div className="w-full border-t border-[#21212155]">
-						<p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
-							We create&nbsp;
+						<p className="w-[100%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
+							Let’s be honest.&nbsp;
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-catching&nbsp;
+								There’s no excuse for a weak online presence anymore. No one has time for outdated websites, scattered branding, or ineffective marketing.
+								Focus on what you do best &nbsp;
 							</span>
-							and&nbsp;
-							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-opening&nbsp;
-							</span>
-							presentations that educate, inspire and influence action.
+							growing your business, while we do what we do best. Building digital experiences that set you apart and puts your business on the map.
 						</p>
+						<div className="flex flex-col  items-start gap-[10px]">
+							<div className="flex items-start ml-10 mb-5 bg-secondry cursor-pointer rounded-full group">
+								<RoundButton
+									href="/contact"
+									title="start the project"
+									className="bg-white text-black"
+									bgcolor="#000"
+									style={{ color: "#fff" }}
+								/>
+							</div>
+						</div>
 					</div>
 					<div className="w-full flex border-t border-[#21212155] py-[20px] flex-col">
 						<div className="w-full flex justify-between sm:flex-col xm:flex-col padding-x sm:gap-[20px] xm:gap-[20px]">
@@ -40,7 +49,7 @@ export default function Hero() {
 											What do you want to achieve?
 											<br className="sm:hidden xm:hidden" /> Understanding the
 											purpose of your <br className="sm:hidden xm:hidden" />
-											presentation allows us to tailor it to ensure it
+											brand allows us to tailor it to ensure it
 											<br className="sm:hidden xm:hidden" /> hits the mark and
 											drives results.
 										</p>
@@ -55,7 +64,7 @@ export default function Hero() {
 											them? We need to know
 											<br className="sm:hidden xm:hidden" /> your audience well
 											enough to deliver a <br className="sm:hidden xm:hidden" />
-											personalized presentation that they truly
+											personalized brand that they truly
 											<br className="sm:hidden xm:hidden" />
 											care about.
 										</p>
@@ -67,14 +76,12 @@ export default function Hero() {
 											Context makes a difference
 										</p>
 										<p className="paragraph font-NeueMontreal text-secondry">
-											When do you present? Online or live? At a
+											Your brand doesn’t exist in a vacuum—it needs to make an impact where it matters most.
 											<br className="sm:hidden xm:hidden" />
-											sales meeting, at a conference, or just
-											<br className="sm:hidden xm:hidden" /> sending a cold
-											email? We knit the context
-											<br className="sm:hidden xm:hidden" /> together to decide
-											the style of the
-											<br className="sm:hidden xm:hidden" /> presentation.
+											Will your audience find you online, in a meeting, at a conference, or through social media?
+											<br className="sm:hidden xm:hidden" /> Every touchpoint matters.
+											<br className="sm:hidden xm:hidden" /> That’s why we tailor your branding, website, and marketing strategy to fit the context in which it will be seen and experienced.
+
 										</p>
 									</div>
 								</div>

@@ -19,7 +19,7 @@ export default function Services() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#fff"}>
 				<Heroservices />
 				<Process />
 				<Capibilyties />

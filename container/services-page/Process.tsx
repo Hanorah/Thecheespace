@@ -15,17 +15,16 @@ export default function Process() {
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Holistic process
+					Services you Expect with the business starter kit
 				</h1>
 			</div>
 			{serviceProcessItems.map((item) => (
 				<div
 					key={item.id}
-					className={`w-full flex py-[10px] flex-col ${
-						item.id == 1
+					className={`w-full flex py-[10px] flex-col ${item.id == 1
 							? "border-y border-[#21212155]"
 							: "border-b border-[#21212155]"
-					}`}>
+						}`}>
 					<div className="w-full flex items-center justify-between py-[10px] padding-x">
 						<div className="w-[50%] sm:w-full xm:w-full">
 							<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
@@ -39,11 +38,10 @@ export default function Process() {
 						</div>
 						<div className="w-[10%] sm:w-full xm:w-full flex items-end justify-end">
 							<button
-								className={`paragraph font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
-									activeAccordion === item.id
+								className={`paragraph font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${activeAccordion === item.id
 										? "text-gray-300"
 										: "text-secondry link-flash"
-								}`}
+									}`}
 								onClick={() => toggleAccordion(item.id)}>
 								{item.button}
 							</button>
