@@ -3,7 +3,7 @@ export { default as logo } from './logo.png';
 export { default as mobileLogo } from './mobile-logo.png';
 
 export { default as aboutImg } from './aboutImg.jpg';
-export { default as videoImg } from './videoImg.jpeg';
+
 export { default as project1 } from './project1.webp';
 export { default as project2 } from './project2.webp';
 export { default as project3 } from './project3.webp';
@@ -15,15 +15,12 @@ export { default as project8 } from './project8.webp';
 export { default as project9 } from './project9.webp';
 export { default as project10 } from './project10.webp';
 export { default as project11 } from './project11.webp';
-export { default as client01 } from './client01.png';
-export { default as client02 } from './client02.png';
-export { default as client03 } from './client03.png';
-export { default as client04 } from './client04.png';
-export { default as client05 } from './client05.png';
-export { default as client06 } from './client06.png';
-export { default as client07 } from './client07.jpeg';
-export { default as client08 } from './client08.png';
-export { default as client09 } from './client09.png';
+export { default as client01 } from './client01.jpg';
+export { default as client02 } from './client02.jpg';
+export { default as client03 } from './client03.webp';
+
+export { default as client05 } from './client05.jpg';
+
 export { default as publication1 } from './publication1.webp';
 export { default as publication2 } from './publication2.webp';
 export { default as publication3 } from './publication3.webp';
@@ -49,7 +46,7 @@ export { default as background } from './background.webp';
 
 // ochi-team
 export { default as backgroundAbout } from './aboutImg.jpg';
-export { default as Team1 } from './team1.jpeg';
+export { default as Team1 } from './team1.png';
 
 export { default as principles1 } from './principles1.svg';
 export { default as principles2 } from './principles2.svg';

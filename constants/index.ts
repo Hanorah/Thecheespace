@@ -1,4 +1,4 @@
-import { capaybilities1, capaybilities2, client01, client02, client03, client04, client05, client06, client07, client08, phase1, phase2, phase3, phase4, phase5, phase6, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3, publication4, publication5, } from "@/public";
+import { capaybilities1, capaybilities2, client01, client02, client03, client05, phase1, phase2, phase3, phase4, phase5, phase6, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3, publication4, publication5, } from "@/public";
 
 // Navbar
 export const navbarItems = [
@@ -36,35 +36,35 @@ export const footerItems = [
    {
       id: 1,
       title: "Instagram",
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/thecheespace/",
       img: "/ins.png", // Add image path
    },
    {
       id: 2,
       title: "Tiktok",
-      href: "https://www.tiktok.com/",
+      href: "https://www.tiktok.com/@cheespace",
       img: "/tiktok.png",
    },
    {
-      id: 2,
+      id: 3,
       title: "Facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/profile.php?id=61573522547589",
       img: "/face.png",
    },
    {
-      id: 3,
+      id: 4,
       title: "Youtube",
-      href: "https://www.youtube.com/",
+      href: "https://www.youtube.com/@thecheespace/",
       img: "/yout.png",
    },
    {
-      id: 4,
-      title: "Twitter",
-      href: "https://www.twitter.com/",
-      img: "/twi.png",
+      id: 5,
+      title: "Linkedin",
+      href: "https://www.linkedin.com/company/thecheespace/",
+      img: "/linked.png",
    },
    {
-      id: 5,
+      id: 6,
       title: "Whatsapp",
       href: "https://wa.link/4e87fq",
       img: "/whatsapp.png",
@@ -113,7 +113,7 @@ export const clientsItem = [
       website: "Millionyse",
       href: "https://millionyse.com/",
       title: "Services Provided:",
-      name: "William Barnes",
+      name: "Lillian Barnes",
       src: client01,
       review: "CheeSpace transformed our brand's online presence with an amazing website. They took the time to understand our vision and executed it flawlessly. From branding to SEO, they covered everything. A game-changer for us!",
       links: [
@@ -134,7 +134,7 @@ export const clientsItem = [
       website: "Shadeum",
       href: "https://shardeum.org/",
       title: "Services Provided:",
-      name: "Adam Koch",
+      name: "Ada Nwaka",
       src: client02,
       review: "The CheeSpace team made the entire process seamless. The results speak for themselves – increased engagement, better customer retention, and a website we’re proud of!",
       links: [
