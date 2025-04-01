@@ -1,7 +1,7 @@
 export { default as eyes } from './eyes.svg';
 export { default as logo } from './logo.png';
 export { default as mobileLogo } from './mobile-logo.png';
-export { default as bg } from './BG.svg';
+
 export { default as aboutImg } from './aboutImg.jpg';
 export { default as videoImg } from './videoImg.jpeg';
 export { default as project1 } from './project1.webp';
