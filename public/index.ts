@@ -44,7 +44,7 @@ export { default as capaybilities1 } from './capybilities1.jpeg';
 export { default as capaybilities2 } from './capybilities2.jpeg';
 
 
-export { default as background } from './background.png';
+export { default as background } from './background.webp';
 
 
 // ochi-team
