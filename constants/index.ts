@@ -66,7 +66,7 @@ export const footerItems = [
    {
       id: 6,
       title: "Whatsapp",
-      href: "https://wa.link/4e87fq",
+      href: "https://wa.me/+2348139723327",
       img: "/whatsapp.png",
    },
 ];

@@ -33,7 +33,7 @@ export default function Hero() {
 					</h1>
 				</div>
 				<div className="w-full pb-[3px] flex flex-col gap-2">
-					<a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+					<a href="https://wa.me/+2348139723327" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
 						<Image
 							src="/whatsapp.png"
 							alt="WhatsApp"
