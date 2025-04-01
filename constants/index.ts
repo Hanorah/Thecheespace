@@ -1,4 +1,4 @@
-import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, phase1, phase2, phase3, phase4, phase5, phase6, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3, publication4, publication5, } from "@/public";
+import { capaybilities1, capaybilities2, client01, client02, client03, client04, client05, client06, client07, client08, phase1, phase2, phase3, phase4, phase5, phase6, project1, project2, project3, project4, project5, project6, project7, project8, project9, project10, project11, publication1, publication2, publication3, publication4, publication5, } from "@/public";
 
 // Navbar
 export const navbarItems = [
@@ -429,7 +429,7 @@ export const serviceCapabilitiesItem = [
 
    {
       id: 2,
-      src1: capaybilities3,
+      src1: capaybilities1,
       title1: "BUILD AUTHORITY & ENGAGE YOUR AUDIENCE:",
       review: "A business that connects with its audience builds loyalty and credibility. We craft compelling digital experiences that turn visitors into loyal customers. From high-quality content to professional presentations, we help you communicate your value in a way that captivates and converts.",
       subTitle: "Services",
@@ -461,7 +461,7 @@ export const serviceCapabilitiesItem = [
          },
       ],
 
-      src2: capaybilities4,
+      src2: capaybilities2,
       title2: "ADDITIONAL SERVICES:",
       links2: [
          {

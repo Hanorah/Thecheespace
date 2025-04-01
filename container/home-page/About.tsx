@@ -13,17 +13,18 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Cheespace is a strategic partner for fast-grow­ing brands
-					<b className="sm:hidden xm:hidden" /> helping businesses build identity,&nbsp;
+					The biggest challenge for&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						launch and scale,
+						startups and businesses?&nbsp;
 					</span>
-					&nbsp;drive sales,<br className="sm:hidden xm:hidden" />
+					<b className="sm:hidden xm:hidden" /> No one knows you, and you don’t know where to start.&nbsp;
+					In today’s world,&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						simplify complex ideas
+						word of mouth&nbsp;
 					</span>
+					isn’t enough anymore&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						&nbsp; to dominate their industry.
+						thats where we come in, Cheespace is a strategic partner for fast-grow­ing brands to dominate their industry.
 					</span>
 				</h2>
 			</div>

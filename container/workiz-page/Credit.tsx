@@ -9,7 +9,7 @@ export default function Credit() {
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[15px] padding-x">
 						<div className="w-1/2 sm:w-full xm:w-full">
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								Services we provided:
+								Services We Provided:
 							</h3>
 						</div>
 						<div className="w-1/2 sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
@@ -19,26 +19,27 @@ export default function Credit() {
 										Client:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Tomer Levy
+										Torlan (Blockchain Made Simple)
 									</p>
 								</div>
 								<div className="flex flex-col">
 									<p className="paragraph font-NeueMontreal text-secondry underline">
-										Project Manager:
+										Project Lead:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Ihor Hulyahrodskyy
+										Caleb Johnson
 									</p>
 								</div>
 							</div>
 							<div className="flex flex-col gap-[10px]">
 								<div className="flex flex-col">
 									<p className="paragraph font-NeueMontreal text-secondry underline">
-										Team:
+										CheeSpace Team:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Ihor Hulyahrodskyy, Kseniia Palamarchuk,
-										<br /> Olha Sereda
+										Hanorah Roland (Branding & Strategy) <br />
+										Ese Okon (UI/UX & Web Development) <br />
+										Esther Elo (Content & Digital Marketing)
 									</p>
 								</div>
 								<div className="flex flex-col">
@@ -46,7 +47,7 @@ export default function Credit() {
 										Motion & Animation:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Vadym Herasymenko
+										CheeSpace Creative Team
 									</p>
 								</div>
 							</div>

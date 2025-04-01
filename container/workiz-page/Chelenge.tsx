@@ -28,15 +28,9 @@ export default function Chelenge() {
 						<div className="w-1/2 sm:w-full xm:w-full">
 							<div className="flex flex-col gap-y-[20px]">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									The goal was to build straightforward, <br /> professional,
-									but emotional presentations
-									<br /> that are delivered to colleagues and
+									At CheeSpace, we helped Torlan establish a strong brand identity and digital presence in the blockchain space. Our goal was to simplify complex blockchain concepts into a clear, engaging, and visually compelling brand that resonates with businesses and creators.
 									<br />
-									clients. We’ve tailored the decks for the <br />
-									audiences and amplified the presentation
-									<br />
-									materials to match the brand’s quality and <br />
-									improve the message.
+									We developed a modern brand strategy, including logo design and marketing assets, ensuring consistency across platforms. Our team designed a user-friendly website with an intuitive UI/UX that aligns with Torlan’s messaging. Through content strategy and SEO, we enhanced online visibility, making blockchain concepts accessible. Additionally, we crafted professional pitch decks and presentations to effectively communicate Torlan’s mission to investors and businesses. At CheeSpace, we turn complex ideas into clear, engaging brand experiences.
 								</p>
 							</div>
 						</div>

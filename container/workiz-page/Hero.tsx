@@ -31,7 +31,7 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										WORKIZ EASY
+										Torlan
 									</h1>
 								</div>
 							</h1>
@@ -47,8 +47,7 @@ export default function Hero() {
 							<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col flex gap-[20px]">
 								<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										End-to-end digital solution <br />
-										including web design, branding, and marketing.
+										Torlan is a blockchain company specializing in secure and decentralized solutions. We crafted a cohesive brand identity, ensuring it aligns with the company’s vision of trust, transparency, and innovation in the blockchain space.
 									</p>
 								</div>
 								<div className="flex flex-col gap-[10px]">

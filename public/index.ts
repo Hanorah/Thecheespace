@@ -42,40 +42,28 @@ export { default as phase5 } from './phase5.png';
 export { default as phase6 } from './phase6.png';
 export { default as capaybilities1 } from './capybilities1.jpeg';
 export { default as capaybilities2 } from './capybilities2.jpeg';
-export { default as capaybilities3 } from './capybilities3.jpeg';
-export { default as capaybilities4 } from './capybilities4.jpeg';
+
 
 export { default as background } from './background.png';
 
 
 // ochi-team
-export { default as backgroundAbout } from './background-about.jpeg';
+export { default as backgroundAbout } from './aboutImg.jpg';
 export { default as Team1 } from './team1.jpeg';
-export { default as Team2 } from './team2.jpeg';
-export { default as Team3 } from './team3.jpeg';
-export { default as Team4 } from './team4.png';
+
 export { default as principles1 } from './principles1.svg';
 export { default as principles2 } from './principles2.svg';
 
 // workiz page
-export { default as workiz } from './workiz.jpeg';
-export { default as welcome } from './welcome.jpeg';
-export { default as chelengeBg } from './chelengeBg.jpeg';
-export { default as showcase1 } from './showcase1.jpeg';
-export { default as showcase2 } from './showcase2.png';
-export { default as showcase3 } from './showcase3.jpeg';
-export { default as showcase4 } from './showcase4.jpeg';
-export { default as showcase5 } from './showcase5.jpeg';
-export { default as showcase6 } from './showcase6.jpeg';
-export { default as after } from './after.png';
-export { default as workizhero } from './workizhero.jpg';
+export { default as workiz } from './workiz.webp';
+export { default as welcome } from './welcome.webp';
+export { default as chelengeBg } from './chelengeBg.webp';
+export { default as showcase1 } from './showcase1.webp';
+export { default as showcase2 } from './showcase2.webp';
+export { default as showcase3 } from './showcase3.webp';
+export { default as showcase4 } from './showcase4.webp';
+export { default as showcase5 } from './showcase5.webp';
+export { default as showcase6 } from './showcase6.webp';
+export { default as after } from './after.webp';
+export { default as workizhero } from './workizhero.webp';
 
-// about page
-export { default as planetly } from './planetly.svg';
-export { default as officevibe } from './officevibe.svg';
-export { default as nestle } from './nestle.svg';
-export { default as toyota } from './toyota.svg';
-export { default as lexus } from './lexus.svg';
-export { default as aflorihtmic } from './aflomatric.svg';
-export { default as orderlion } from './orderlion.svg';
-export { default as blackBox } from './blackBox.svg';

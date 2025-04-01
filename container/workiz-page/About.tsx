@@ -18,13 +18,17 @@ export default function About() {
 						<div className="w-1/2 sm:w-full xm:w-full flex justify-between gap-[10px] sm:flex-col xm:flex-col">
 							<div>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									Built by home service professionals on a
-									<br className="sm:hidden xm:hidden" /> mission to make your
-									“work easy,” <br className="sm:hidden xm:hidden" />
-									Workiz empowers service businesses to get more
-									<br className="sm:hidden xm:hidden" /> jobs done, work easier,
-									and grow smarter.
+									BLOCKCHAIN MADE SIMPLE
+
+									Torlan helps businesses and creators use blockchain
+									<br className="sm:hidden xm:hidden" />
+									without the confusing tech talk.
+									<br className="sm:hidden xm:hidden" />
+									We design easy-to-use tools for secure transactions,
+									<br className="sm:hidden xm:hidden" />
+									digital identity, and smarter business solutions. <br /> No complexity—just real results.
 								</p>
+
 							</div>
 							<div className="flex flex-col gap-y-[10px]">
 								<div>
@@ -32,7 +36,7 @@ export default function About() {
 										Industry:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Service Management Software
+										Blockchain & Decentralized Solutions
 									</p>
 								</div>
 								<div>
