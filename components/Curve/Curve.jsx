@@ -51,7 +51,7 @@ export default function Curve({ children, backgroundColor }) {
 				 left-0 top-0 z-50 bg-black"
 			/>
 			<motion.p
-				className="absolute left-1/2 top-[40%] text-white text-[30px] font-NeueMontreal  z-[60] -translate-x-1/2 text-center"
+				className="absolute left-1/2 uppercase top-[40%] text-white text-[40px] font-NeueMontreal  z-[60] -translate-x-1/2 text-center"
 				{...anim(text)}>
 				{routes[router.route]}
 			</motion.p>
