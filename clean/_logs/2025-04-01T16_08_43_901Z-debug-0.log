@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.1
+2 info using node@v21.6.1
+3 silly config load:file:C:\Users\HP\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\HP\Desktop\ochi-website-clone-master\.npmrc
+5 silly config load:file:C:\Users\HP\.npmrc
+6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view @emailjs/browser description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "@emailjs/browser" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:c:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-04-01T16_08_43_901Z-
+10 verbose logfile c:\Users\HP\Desktop\ochi-website-clone-master\clean\_logs\2025-04-01T16_08_43_901Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@emailjs%2fbrowser 3511ms (cache updated)
+14 verbose cwd c:\Users\HP\Desktop\ochi-website-clone-master
+15 verbose os Windows_NT 10.0.19045
+16 verbose node v21.6.1
+17 verbose npm  v10.9.1
+18 verbose exit 0
+19 info ok
