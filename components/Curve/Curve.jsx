@@ -10,7 +10,7 @@ const routes = {
 	"/presentation": "Our Work",
 	"/ochi-team": "About Us",
 	"/contact": "Contact Us",
-	"/case": "Workiz Easy",
+	"/case": "Case Study",
 };
 
 const anim = (variants) => {

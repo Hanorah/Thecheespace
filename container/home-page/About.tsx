@@ -64,7 +64,7 @@ export default function About() {
 									<LinkHover
 										className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
 										title={item.title}
-										href="/"
+										href={item.href}
 									/>
 								</div>
 							))}
